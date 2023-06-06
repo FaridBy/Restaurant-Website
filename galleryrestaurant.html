@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="galleryrestaurant.css">
+</head>
+
+<body class="body" background="../../../Downloads/Izakaya_sandynoto.jpg">
+	<div class="enust">
+		<a href="index1.html"><img alt="logo" class="logo" src="../../../Downloads/Screenshot_2023-04-19_093712-removebg-preview.png" height="150px" ></a>  
+	<ul class="menu" >
+		<a class="a" href="restaurantmenu.html" ><li class="li1"><font class="font" color="#FFFFFF"  size="+3" >Menu</font></li></a>
+		<a class="a" href="aboutrestaurant.html" ><li class="li2"><font class="font" color="#FFFFFF" size="+3">About us</font></li></a>
+		<a class="a" href="contactrestaurant.html" ><li class="li3"><font color="#FFFFFF" class="font" size="+3">Contact</font></li></a>
+		<a class="a" href="galleryrestaurant.html" ><li class="li4"><font color="#FFFFFF" class="font" size="+3">Gallery</font></li></a>
+		</ul>
+	</div>
+
+	<a class="a1" href="login.html"><div class="login"><font class="logintext" color="white">Log In</font></div></a>
+	<div class="background"><img  ></div>
+	<div class="stafftext"><font class="stafffont">Staff</font></div>
+	
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img class="imgbig" src="../../../Downloads/Restaurant-Future-Leadership.png" style="width:745px">
+
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img class="imgbig" src="../../../Downloads/franchise_staff_body_9.jpg" style="width:745px">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img class="imgbig" src="../../../Downloads/Restaurant-Staff-BonusChecks.png" style="width:745px">
+ 
+</div>
+	<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img class="imgbig" src="../../../Downloads/RelationshipBuilding2.jpg" style="width:745px">
+ 
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+	
+
+		
+	
+</script>
+<div class="exteriertext"><font class="exterierfont">Exterior</font>
+	</div>
+
+	<div class="interiertext"><font class="interierfont">Interior</font>
+	</div>
+	<div class="staffpictext"><font class="staffpictextfont">Our restaurant boasts an exceptional team that consistently delivers outstanding experiences to our guests.With a talented and innovative chef at the helm, our kitchen produces culinary masterpieces that delight the senses.Our dedicated waitstaff goes above and beyond to provide personalized and attentive service, ensuring each guest feels truly valued.The passion and commitment of our staff create a warm and welcoming atmosphere, making every visit to our restaurant a memorable one.From the moment you enter, our friendly and professional team works tirelessly to exceed your expectations.We are immensely proud of our staff's dedication, professionalism, and passion, which make our restaurant an exceptional dining destination.</font></div>
+	
+	<div class="exterierimgs"><img class="img1" src="../../../Downloads/Untitled-2.jpg" height="400px"  width="730px"><br><img class="img2"  src="../../../Downloads/20.bmp" height="400px" width="730px"></div>
+	<div class="interierimgs"><img class="img3"  src="../../../Downloads/13.bmp" height="280px" width="351px">&nbsp;<img class="img4" src="../../../Downloads/17.bmp" height="280px" width="351px"><img class="img5" src="../../../Downloads/26.bmp" height="280px" width="351px"><img class="img6" src="../../../Downloads/18.bmp" height="280px" width="351px"></div>
+	<div class="archtxt"><font class="archtextfont">Discover a feast for the senses at our restaurant, expertly crafted by Architect Abbasova Narmin. Step into a world where delectable cuisine meets captivating design. Narmin's artistic vision has transformed both the interior and exterior, creating a space that is as inviting as it is stunning. Immerse yourself in a symphony of elegance and functionality, where every detail has been carefully considered. Indulge your palate and your eyes as you experience the magic of Abbasova Narmin's remarkable design. Welcome to a dining experience like no other.</font></div>
+	
+	</body>
+	
+</html>

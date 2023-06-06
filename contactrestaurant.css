@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.enust{height: 70px;width: 100%;top: 0px;left: 0px}
+.logo{margin-top: 5px}
+.bezek{height: 200px;width: 200px;margin-left: 1090px;margin-top:170px}
+.body{overflow: hidden;height: 105%;position: fixed ;}
+.menu{display: block; margin-top: -159px;margin-left: 195px; list-style: none;}
+.li1{display: inline-block;padding:20px;}
+.li1:hover .font{color: yellow}
+.font {
+  font-family: "Copperplate Gothic Light"; }
+.li2{display: inline-block;padding:20px;margin-left: 100px }
+.li2:hover .font{color: yellow}
+.li3{display: inline-block;padding:20px ;margin-left: 100px;border: 4px solid white; }
+
+.li4{display: inline-block;padding:20px;margin-left: 100px  }
+.li4:hover .font{color: yellow}
+
+.login{height: 18px;width: 100px;margin-top:-48px;margin-left:1350px ; border: 2px solid white ;border-radius:20px;text-align: center;padding: 5px}
+.body2{width: 110%;background-color:#a2a093 ;margin-left: -10px;height: 460px;margin-top: 240px}
+.lefttext{height: 200px;width: 100px;margin-left: 80px;;margin-top: -350px}
+.symbols{height: 120px;width: 200px;margin-top: -280px;margin-left: 105px;}
+.contactinfo{height: 100px;width: 200px;margin-left: 100px;margin-top: 50px}
+.sociallogos{width: 500px;margin-left: 60px}
+.contacttext{width: 200px;height: 200px;margin-top: -570px;margin-left: 650px;font-size: 65px}
+.subtextofcontact{color: white;margin-left: 550px;margin-top: -120px;font-size: 25px}
+.writeus{height: 465px;width: 750px;background: white;border-radius: 15px;margin-top:30px;margin-left: 380px}
+.decor{border: solid orange 3px;height: 390px;width: 670px;margin-top: -430px;margin-left: 420px}
+.garson{margin-top: -375px;margin-left: 1270px}
+.time{margin-top:0px;margin-left: 1290px}
+.timedetails{margin-left: 1270px;font-size: 20px}
+.name{width:500px;height: 50px;color: black;}
+.inputs{margin-top:-350px;margin-left: 550px}
+.date{}
+.reservebutton{border-radius: 20px;border-color: orange;margin-left: 415px;height: 30px;background-color: 
+white}
+.bottomline{background-color:black;height: 10px;width: 120%; margin-top:63px; margin-left:-50px;}
+.a{text-decoration: none}

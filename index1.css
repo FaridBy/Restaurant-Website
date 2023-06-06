@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.enust{height: 70px;width: 100%;top: 0px;left: 0px;}
+.logo{margin-top: 5px}
+.bezek{height: 200px;width: 200px;margin-left: 1090px;margin-top:170px}
+.body{overflow-x: hidden;height: 100%;background:black}
+.menu{display: block; margin-top: -159px;margin-left: 195px; list-style: none;}
+.li1{display: inline-block;padding:20px;}
+.li1:hover{background: #FFFFFF;} 
+.li1:hover .font{color: #000000;}
+.font {
+  font-family: "Copperplate Gothic Light"; }
+.li2{display: inline-block;padding:20px;margin-left: 100px }
+.li2:hover{background: #FFFFFF;} 
+.li2:hover .font{color: #000000;}
+.li3{display: inline-block;padding:20px;margin-left: 100px  }
+.li3:hover{background: #FFFFFF;} 
+.li3:hover .font{color: #000000}
+.li4{display: inline-block;padding:20px;margin-left: 100px  }
+.li4:hover{background: #FFFFFF;} 
+.li4:hover .font{color: #000000}
+.deneme{height: 200px; width: 1600px;margin-top: 250px;margin-left: -10px;}
+@keyframes example {
+  0%   {transform: rotate(30deg)}
+  20%  {transform: rotate(60deg)}
+  40%  {transform: rotate(90deg)}
+  60% {transform: rotate(120deg)}
+  80%   {transform: rotate(150deg)}
+  100%  {transform: rotate(180deg)}
+  
+}
+
+.login{height: 30px;width: 110px;margin-top:-48px;margin-left:1350px ; border: 2px solid white ;border-radius:20px;text-align: center;padding: 5px}
+.bodyfull{margin-top:-100px;margin-left: -10px;  opacity: 1;position: absolute;z-index: -1;width: 100%}
+.text{width: 810px;height: 270px;margin-top: 200px;margin-left: 400px;position:fixed;z-index: 0;}
+.text{border-left: 10px solid white;border-bottom: 10px solid white}
+
+* {
+  box-sizing: border-box;
+}
+
+.a1{text-decoration: none}
+
+#myVideo {
+	position: fixed;
+	z-index: -1;
+  opacity: 0.5;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}

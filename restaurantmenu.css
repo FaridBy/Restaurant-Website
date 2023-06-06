@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+.enust{height: 70px;width: 100%;top: 0px;left: 0px}
+.logo{margin-top: 5px}
+.bezek{height: 200px;width: 200px;margin-left: 1090px;margin-top:170px}
+.body{overflow-y: scroll;height: 100%;}
+.menu{display: block; margin-top: -159px;margin-left: 195px; list-style: none;}
+.li1{display: inline-block;padding:20px ;border: 4px solid white;} 
+.font {
+  font-family: "Copperplate Gothic Light"; }
+.li2{display: inline-block;padding:20px;margin-left: 100px; }
+.li2:hover .font{color: yellow;}
+.li3{display: inline-block;padding:20px;margin-left: 100px  }
+.li3:hover .font{color: yellow}
+.li4{display: inline-block;padding:20px;margin-left: 100px  }
+.li4:hover .font{color: yellow}
+.scroll{height: 1000px;width: 1px;margisn-top:200px}
+.list{height: 200px;width:  100px;margin-top: -850px;margin-left: 10px;}
+.listli{display: block;list-style: none;height: 0px;width: 300px ;text-align: center;padding-left: 100px;padding-top: 0px;padding-bottom: 70px;padding-right: 100px;}
+.listlastli{display: block;list-style: none;height: 0px;width: 300px;text-align: center;padding-left: 100px;padding-top: 10px;padding-bottom: 70px;padding-right: 100px}
+.listli:hover{transform: scale(1.1)}
+.listlastli:hover{transform: scale(1.1)}
+ul li ul {
+    display: none;
+    position: absolute;
+    left: 549px;
+    top: 0px;
+}
+.list ul li:hover ul {display: block;list-style: none;}
+
+
+
+.list ul li ul .soup1{border:px solid white; height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-30px;}
+.list ul li ul .soup2{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .soup3{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .soup4{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+
+
+.list ul li ul .salad1{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-100px}
+.list ul li ul .salad2{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .salad3{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .salad4{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .salad5{border:2px solid white;height: 180px;width: 260px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .salad6{border:2px solid white;height: 180px;width: 260px;color: black;background: #FFFFFF;margin-top:-184px;margin-left:350px}
+
+
+.list ul li ul .sidedishes1{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-240px}
+.list ul li ul .sidedishes2{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .sidedishes3{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .sidedishes4{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .sidedishes5{border:2px solid white;height: 180px;width: 260px;color: black;background: #FFFFFF;margin-top:20px;}
+
+
+
+
+
+.list ul li ul .hotdishes1{border:2px solid white;height: 200px;width: 250px;color: black;background: #FFFFFF;margin-top:-310px}
+.list ul li ul .hotdishes2{border:2px solid white;height: 200px;width: 250px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .hotdishes3{border:2px solid white;height: 200px;width: 250px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .hotdishes4{border:2px solid white;height: 200px;width: 250px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .hotdishes5{border:2px solid white;height: 180px;width: 250px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .hotdishes6{border:2px solid white;height: 180px;width: 250px;color: black;background: #FFFFFF;margin-top:-184px;margin-left:350px}
+
+
+
+.list ul li ul .snacks1{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-170px}
+.list ul li ul .snacks2{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .snacks3{border:2px solid white;height: 200px;width: 300px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .snacks4{border:2px solid white;height: 200px;width: 260px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .snacks5{border:2px solid white;height: 180px;width: 260px;color: black;background: #FFFFFF;margin-top:20px;}
+
+
+.list ul li ul .iceddrinks1{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-380px}
+.list ul li ul .iceddrinks2{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .iceddrinks3{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .iceddrinks4{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .iceddrinks5{border:2px solid white;height: 180px;width: 240px;color: black;background: #FFFFFF;margin-top:20px;}
+
+
+
+.list ul li ul .hotdrinks1{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-450px}
+.list ul li ul .hotdrinks2{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .hotdrinks3{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .hotdrinks4{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .hotdrinks5{border:2px solid white;height: 180px;width: 240px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .hotdrinks6{border:2px solid white;height: 180px;width: 240px;color: black;background: #FFFFFF;margin-top:-184px;margin-left:350px}
+.signup{height: 18px;width: 80px;margin-top:-415px;margin-left:1300px ; border: 2px solid white ;border-radius:20px;text-align: center;padding: 5px}
+.login{height: 18px;width: 80px;margin-top:-32px;margin-left:1410px ; border: 2px solid white ;border-radius:20px;text-align: center;padding: 5px}
+
+
+
+.list ul li ul .deserts1{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-550px}
+.list ul li ul .deserts2{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .deserts3{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .deserts4{border:2px solid white;height: 200px;width: 240px;color: black;background: #FFFFFF;margin-top:-203px;margin-left: 350px}
+.list ul li ul .deserts5{border:2px solid white;height: 180px;width: 240px;color: black;background: #FFFFFF;margin-top:20px;}
+.list ul li ul .deserts6{border:2px solid white;height: 180px;width: 240px;color: black;background: #FFFFFF;margin-top:-184px;margin-left:350px}
+.login{height: 18px;width: 100px;margin-top:-413px;margin-left:1350px ; border: 2px solid white ;border-radius:20px;text-align: center;padding: 5px}
+
+.menuimg{z-index: -1;position: absolute;width: 500px;margin-left: 46px;margin-top: 100px}
+
+.a1{text-decoration: none}
+
+
+
+
+
+
+

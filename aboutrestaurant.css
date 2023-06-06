@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+.enust{height: 70px;width: 100%;top: 0px;left: 0px}
+.logo{margin-top: 5px}
+.bezek{height: 200px;width: 200px;margin-left: 1090px;margin-top:170px}
+.body{overflow: hidden;height: 100%;overflow-y: scroll}
+.menu{display: block; margin-top: -159px;margin-left: 195px; list-style: none;}
+.li2{display: inline-block;padding:20px ;margin-left: 100px;border: 4px solid white;} 
+.font {
+  font-family: "Copperplate Gothic Light"; }
+.li1{display: inline-block;padding:20px }
+.li1:hover .font{color:yellow}
+.li3{display: inline-block;padding:20px;margin-left: 100px  }
+.li3:hover .font{color: yellow}
+.li4{display: inline-block;padding:20px;margin-left: 100px  }
+.li4:hover .font{color: yellow}
+
+.login{height: 18px;width: 100px;margin-top:-48px;margin-left:1350px ; border: 2px solid white ;border-radius:20px;text-align: center;padding: 5px}
+
+
+.a{text-decoration: none}
+
+
+.location{background: #f2f2f2;height: 30px;margin-top: 100px;margin-left: -20px;width: 102%;text-align: center;padding: 4px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+
+.menu2{background: #bd1206;height: 55px;margin-left: -20px;width: 102%;margin-top: -16px}
+
+
+.part1{width: 102%;height: 350px;background: #0a3d4e;margin-left: -20px;text-align: center}
+
+
+.part2{width: 102%;height: 435px;margin-left: -20px;background-image: url("../../../Downloads/depositphotos_161648968-stock-photo-white-gray-background-abstract-concrete.jpg");border-top: 1px solid white;}
+
+
+.part3{width: 102%;height: 435px;background: #5D3082;margin-left: -20px;background-image: url("../../../Downloads/depositphotos_161648968-stock-photo-white-gray-background-abstract-concrete.jpg");border-top: 1px solid white;}
+.part4{width: 102%;height: 435px;background: #25484F;margin-left: -20px;background-image: url("../../../Downloads/depositphotos_161648968-stock-photo-white-gray-background-abstract-concrete.jpg");border-top: 1px solid white;}
+.menu2ul{list-style: none;display: block;}
+
+
+.menu2ulli1{display: inline-block;padding-top: 18px;margin-left: 10px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+
+.menu2ulli2{display: inline-block;margin-left: 230px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+
+.menu2ulli3{display: inline-block;margin-left: 230px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+
+.menu2ulli4{display: inline-block;margin-left: 230px;font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+
+
+.ourstory{color: white;font-size: 60px;font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"}
+
+
+.ourstorytext{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";color: white}
+
+
+.part2img{margin-left: 802px;}
+
+.part2text{height: 348px;width: 400px;margin-top: -1220px;text-align:left;margin-left: 80px}
+
+.part2text1{font-size: 44px;font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"}
+
+.part2text2{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";font-size: 30px}
+
+
+.part3text{height: 348px;width: 400px;margin-top: 70px;text-align: left;margin-left: 850px}
+
+.part3text1{font-size: 44px;font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"}
+
+.part3text2{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";font-size: 30px}
+
+.part4img{margin-top: 18px;margin-left: 779px;}
+.part4text{height: 348px;width: 400px;margin-top: -360px;margin-left: 150px}
+.part4text1{font-size: 44px;font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"}
+.part4text2{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";font-size: 30px}
+.a1{color: black}
